@@ -1,0 +1,98 @@
+% LaTeX resume using res.cls
+\documentclass[line, 12pt]{res}
+%\usepackage{helvetica} % uses helvetica postscript font (download helvetica.sty)
+%\usepackage{newcent}   % uses new century schoolbook postscript font 
+\newcommand\GPAindent[1][1cm]{\hspace*{#1}}
+\newcommand\tab[1][0.5cm]{\hspace*{#1}}
+\newcommand\skillsAndKnowledgeTab[1][4.6cm]{\hspace*{#1}}
+
+%\usepackage[margin=0.75in]{geometry}
+
+\usepackage[top=.25in, bottom=.25in, left=.25in, right=.75in]{geometry}
+
+\begin{document}
+
+\name{Mitchell J. Dzurick}
+
+\address{\parbox{0.5\linewidth}{%
+		\null\hfill mitchdz@email.arizona.edu	\\
+		\null\hfill linkedin.com/in/dzurick \\
+		\null\hfill (520)-400-9183
+	}
+}
+
+\begin{resume}
+%\section{OBJECTIVE}       
+ 
+\section{EDUCATION} 
+				{\sl B.S. Electrical \& Computer Engineering}
+                % \sl will be bold italic in New Century Schoolbook (or
+	        	% any postscript font) and just slanted in
+				% Computer Modern (default) font
+                $\mid$ \textbf{University of Arizona} \hfill Fall 2016 - Spring 2020\\
+                \GPAindent GPA: \textbf{3.667}/4.00 \\
+                {\sl Member} $\mid$ \textbf{Eta Kappa Nu IEEE}
+                	\hfill Spring 2018 - Present \\
+                \tab - Awarded to top 25\% of 2nd semester Sophomores. \\
+                {\sl Dean's List} $\mid$ \textbf{University of Arizona College of Engineering} \hfill Fall 2016 \\
+                \tab - Award for Academic Distinction throughout the 2016 school year.
+
+
+\section{EXPERIENCE} 
+				{\sl Software Security Engineer} $\mid$ \textbf{Intel Corporation} \hfill Summer 2018 \\
+                 	\tab - Analyze large datasets using an Artificial Neural Network. \\
+                 	\tab - Create embedded Linux distributions with Yocto Project. \\
+                 	\tab - Develop simple Intel Software Guard eXtension program.
+ 		
+ 				%\begin{itemize}  \itemsep -2pt % reduce space between items
+ 				%	\item Analyze large datasets using an Artificial Neural Network.
+ 				%	\item Create embedded Linux distributions with Yocto Project.
+ 				%	\item Develop simple Intel Software Guard eXtension program.
+ 				%\end{itemize}
+ 
+                {\sl Lab Assistant} $\mid$ \textbf{University of Arizona Computer Programming II}\hfill Spring 2018 \\
+                 %\begin{itemize}  \itemsep -2pt %reduce space between items
+                 	\tab - Provide Office Hours to help students with C++ programming. \\
+                 	\tab - Experience with debugging other people’s code, and dealing with program errors.
+                 %\end{itemize} 
+
+
+				{\sl Student} $\mid$ \textbf{University of Arizona Computer Programming II}\hfill Fall 2017 \\
+					%\begin{itemize}  \itemsep -2pt %reduce space between items
+						\tab - Large scale social network analysis project written in C++ to be ran under 5 seconds. \\
+						\tab - Project required use of data structures such as hash maps and binary trees.
+				%\end{itemize} 
+
+				{\sl Student} $\mid$ \textbf{University of Arizona Digital Logic}\hfill Fall 2017 \\
+					%\begin{itemize}  \itemsep -2pt %reduce space between items
+						\tab - Constructed a 32-bit single cycle processor in Verilog. \\
+						\tab - Ran simulation of a processor on a Nexys 4 DDR Artix-7 FPGA board.
+				%\end{itemize} 
+
+\section{INVOLVEMENT} 
+	Chair $\mid$ \textbf{University of Arizona IEEE} \hfill Summer 2018 - Present \\
+		\tab - Gain social skills in a professional environment in order to benefit the student organization. \\
+		\tab - Unanimously voted to be chair of IEEE for the 2018-2019 school year.
+	
+	Vice President $\mid$ \textbf{University of Arizona H.A.C.K.S} \hfill Summer 2017 - Present \\
+		\tab - Use Proxmox VE hypervisor to create and manage multiple virtual machines. \\
+		\tab - Teach system administration and Cyber Security.
+	
+	Volunteer $\mid$ \textbf{University of Arizona ECE 175} \hfill Fall 2017 \\
+		\tab - Assists students in learning fundamentals of C programming. \\
+		\tab - Provide help on how to properly debug programs.
+
+\section{SKILLS \& KNOWLEDGE} 
+	- {\sl Languages \& Software:} C, C++, Bash Scripting, Python, Java, Matlab, Verilog, \\ \tab[4.48cm] basic x86 \& MIPS Assembly, qtspim, UML. \\ \\
+	- {\sl Technical Skills:} Operating Unix machines, Linux Binary Analysis, Program Debugging, \\ \tab[3.25cm] Basic Circuit Analysis, Soldering, utilizing Arduino \& Raspberry Pi computers.
+ 
+
+\end{resume}
+\end{document}
+
+
+
+
+
+
+
