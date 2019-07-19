@@ -1,6 +1,11 @@
-#Mitchell Dzurick's Resumes
+Mitchell Dzurick's Resumes
 
-boop
-boop
+```
+sudo apt install texlive-full
+sudo apt install texmaker
+```
 
-![alt text](Dzurick_Mitchell_Resume.pdf?raw=true "Resume")
+
+![alt text](Current_Resume/Dzurick_Mitchell_Resume.pdf?raw=true "Resume")
+
+
