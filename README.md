@@ -6,4 +6,4 @@ sudo apt install texstudio
 ```
 
 
-![Resume](Dzurick_Mitchell_Resume.pdf?raw=true)
+![Resume](https://github.com/mitchdz/Resume/blob/master/Dzurick_Mitchell_Resume.pdf)
