@@ -1,8 +1,7 @@
 Mitchell Dzurick's Resumes
 
 ```
-sudo apt install texlive-full
-sudo apt install texstudio
+sudo apt install -y texlive-full texstudio
 ```
 
 
